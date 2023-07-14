@@ -1,0 +1,24 @@
+{
+    "name": "campusdatamedia/faturhelper",
+    "description": "Project that contains some helpers/functions/methods to help my work easier",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aji Fatur",
+            "email": "ajifatur2@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ajifatur\\FaturHelper\\": "src/"
+        }
+    },
+    "require": {
+        "hisorange/browser-detect": "^4.4",
+        "laravel/socialite": "^5.2",
+        "rap2hpoutre/laravel-log-viewer": "^2.0",
+        "stevebauman/location": "^6.3",
+        "yajra/laravel-datatables-oracle": "~9.0"
+    }
+}

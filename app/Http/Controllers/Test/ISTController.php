@@ -136,7 +136,6 @@ class ISTController extends Controller
                     $score[$part] = $score_by_part;
                 }
             }
-            dd($answer);
 
             $result = []; // Array result
             $array_IST = ['SE','WA','AN','GE','ME','RA','ZR','FA','WU']; // Array IST
